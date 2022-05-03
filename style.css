@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-top: 40px;
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button{
+    margin-bottom: 20px;
+    width: fit-content;
+    padding: 10px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: solid 2px black;
+    border-radius: 6px;
+}
+
+.button:hover{
+    background-color: transparent;
+    color: black;
+}
+.text{
+    width: 300px;
+    height: fit-content;
+    padding: 30px;
+    border: solid 1px rgb(50, 48, 42);
+    text-align: center;
+    box-shadow: 2px 2px 4px grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main-container{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 30px;
+    
+}
+ .container{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    
+
+}
+img{
+    width: 120px;
+    height: auto;
+    border: solid 2px blue;
+    border-radius: 6px;
+}
+.info{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    
+}
+.title_price{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px rgb(136, 136, 186);
+}
+.price{
+    color: brown;
+}
