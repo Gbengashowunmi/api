@@ -1,7 +1,7 @@
 const btn = document.querySelector('.button');
 const fact = document.querySelector('.facts');
 
-fetch('api.txt')
+fetch('https://cat-fact.herokuapp.com/facts')
 .then(function(data){
     return data.json();
 })
@@ -11,6 +11,5 @@ fetch('api.txt')
         console.log(number);
        let dat = `<h4 class="facts">${completedata[number].text}</h4>`
        fact.innerHTML = dat;
-    })
-    
+    })  
 })
